@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+/*=============== BODY ==================*/
+
+body{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.cart-container{
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    background-color: white;
+    width: 90%;
+    height: 50vh;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.fondo-color{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    height: 20%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.perfil img{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    border-radius: 50%;
+    left: 30px;
+    top: 20px;
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.info-perfil{
+    width: 90%;
+    margin-top: 85px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+}
+
+.perfil input{
+    background-color: rgba(0, 0, 0, 0.059);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    color: rgb(0, 179, 255);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.perfil input:hover{
+    transform: scale(1.1);
+}
+
+/*=================================*/
